@@ -2,6 +2,7 @@
   "compilerOptions": {
     "outDir": "./dist/",
     "target": "esnext",
-    "module": "nodenext"
+    "module": "nodenext",
+    "jsx": "react-jsx"
   }
 }
