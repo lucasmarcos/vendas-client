@@ -1,6 +1,7 @@
 {
   "type": "module",
   "dependencies": {
+    "@biomejs/biome": "^1.9.2",
     "@types/react": "^18.3.8",
     "@types/react-dom": "^18.3.0",
     "esbuild": "^0.24.0",
