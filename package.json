@@ -13,7 +13,7 @@
   "scripts": {
     "build:ts": "tsc",
     "build:css": "tailwindcss -i ./src/index.css -o ./web/index.css",
-    "bundle": "esbuild",
-    "lint": "biome"
+    "bundle": "esbuild --bundle --minify ./dist/index.js --outfile=./web/index.js",
+    "lint": "biome check --write ./src/"
   }
 }
