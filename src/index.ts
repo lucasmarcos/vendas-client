@@ -1,7 +1,6 @@
-import { createPortal } from "react-dom";
+import { createRoot } from "react-dom/client";
 import { jsx } from "react/jsx-runtime";
 import { app } from "./app.js";
 
-const root = document.getElementById("root");
-
-createPortal(jsx(app, {}), root);
+const root = createRoot(document.getElementById("root"));
+root.render(jsx(app, {}));
